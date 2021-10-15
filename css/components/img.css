@@ -1,0 +1,16 @@
+.logo{
+	width: 150px;
+}
+
+.img-team{
+	border-radius: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	object-fit: cover;
+	width: 100%;
+	filter: grayscale(100%)
+}
+
+.img-team:hover{
+	filter: grayscale(0%);
+}

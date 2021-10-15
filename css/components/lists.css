@@ -1,0 +1,21 @@
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+	align-items: center;
+	margin-bottom: 0px;
+}
+
+.list-inline li{
+	display: inline-flex;
+	padding:  8px 30px;
+	justify-content: space-between;
+}
+
+.list-inline i {
+	font-size: 45px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	font-size: 45px;
+	color:rgb(131,160,55);

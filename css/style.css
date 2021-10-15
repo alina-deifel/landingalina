@@ -1,0 +1,60 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/img.css");
+@import url("components/lists.css");
+@import url("components/slideshow.css");
+@import url("components/team-section.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+#intro{
+  margin-bottom: 40px;
+}
+
+#recruiting{
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+#social-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 8px rgb(131,160,55);
+  margin-top: 15px;
+}
+
+#social-section h2{
+  align-content: center;
+}
+
+
