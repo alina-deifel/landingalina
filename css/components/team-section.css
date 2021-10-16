@@ -2,7 +2,7 @@
   background-color: rgb(230, 230, 230);
   padding: 20px;
   margin-top: 25px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 /* Three columns side by side */
@@ -14,7 +14,7 @@
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 975px) {
   .column {
     width: 100%;
     display: block;
@@ -44,7 +44,7 @@
 }
 
 .title {
-  color: rgb(131,160,55);
+  color: grey;
 }
 
 
@@ -53,8 +53,8 @@ i {
   color: rgb(131,160,55);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5%;
-  margin-top: 10%;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 i:hover {
